@@ -4,7 +4,7 @@
 body{
 background: linear-gradient(rgba(201, 226, 183, 0.232), rgba(170, 174, 167, 0.789)), url("https://i.ibb.co/5KsSH3P/25-D0-E54-A-B920-4-F80-AEB4-88277340-EBA3.png") no-repeat;  
 background-size: 90rem 60rem;
-background-position: center center;
+background-position:center;
 background-attachment: fixed;
 }
 
@@ -14,7 +14,7 @@ and (max-device-width: 1024px) {
 body {
 background: linear-gradient(rgba(201, 226, 183, 0.232), rgba(170, 174, 167, 0.789)), url("https://i.ibb.co/5KsSH3P/25-D0-E54-A-B920-4-F80-AEB4-88277340-EBA3.png") no-repeat;  
 background-size: 70rem 82rem;
-background-position: center center;
+background-position: center;
 background-attachment: fixed;
   }
 }
@@ -23,16 +23,11 @@ background-attachment: fixed;
 @media screen and (max-device-width: 640px) {
 body{
 background: linear-gradient(rgba(201, 226, 183, 0.232), rgba(170, 174, 167, 0.789)), url("https://i.ibb.co/5KsSH3P/25-D0-E54-A-B920-4-F80-AEB4-88277340-EBA3.png") no-repeat;  
-background-size: 30rem 70rem;
-background-position: center center;
+background-size: 30rem 60rem;
+background-position: center;
 background-attachment: fixed;
     }
 }
-
-
-/* .home{
-
-} */
 
 .main-content{
     padding-top: 7rem;
@@ -100,7 +95,7 @@ margin-bottom: 25px;
 font-weight: 200;
 font-family: 'Playfair Display', serif;
 font-size: 30px;
-color: rgba(109, 153, 116, 1);
+color: rgb(0, 0, 0);
 }
 
 /* mobile */
@@ -111,7 +106,7 @@ font-weight: 200;
 font-family: 'Playfair Display', serif;
 font-size: 25px;
 margin-left: 2rem;
-color: rgba(109, 153, 116, 1);
+color: rgb(0, 0, 0);
 display: inherit
         }
     }
@@ -157,7 +152,7 @@ transform: rotate(-2deg);
 font-size: 30px;
 padding-bottom: 25px;
 margin-left: 1rem;
-color: rgba(109, 153, 116, 1);
+color: rgb(0, 0, 0);
 }
 
 /* Ipad/tablet */
@@ -174,7 +169,7 @@ font-family: 'Playfair Display', serif;
 transform: rotate(-2deg);
 font-size: 25px;
 margin-left: 5rem;
-color: rgba(109, 153, 116, 1);
+color: rgb(0, 0, 0);
 display: inherit;
   }
 }
@@ -188,7 +183,7 @@ font-family: 'Playfair Display', serif;
 transform: rotate(-2deg);
 font-size: 20px;
 margin-left: 5rem;
-color: rgba(109, 153, 116, 1);
+color: rgb(0, 0, 0);
 display: inherit;
     }
 }
