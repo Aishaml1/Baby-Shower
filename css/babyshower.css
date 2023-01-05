@@ -37,7 +37,16 @@ width: fit-content;
 
 .main-content{
     padding-top: 10rem;
+    margin: auto;
 }
+
+/* mobile */
+@media screen and (max-device-width: 640px) {
+    .main-content{
+        padding-top: 15rem;
+        margin: auto;
+        }
+    }
 
 .title {
 font-weight: 200;
