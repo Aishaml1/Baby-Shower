@@ -27,7 +27,7 @@ width: fit-content;
 @media screen and (max-device-width: 640px) {
 body{
 background: linear-gradient(rgba(201, 226, 183, 0.232), rgba(170, 174, 167, 0.789)), url("https://i.ibb.co/5KsSH3P/25-D0-E54-A-B920-4-F80-AEB4-88277340-EBA3.png") no-repeat;  
-background-size: 28rem 70rem;
+background-size: 28rem 80rem;
 background-position: center;
 background-attachment: fixed;
 margin:auto;
@@ -43,7 +43,6 @@ width: fit-content;
 /* mobile */
 @media screen and (max-device-width: 640px) {
     .main-content{
-        padding-top: 15rem;
         margin: auto;
         }
     }
