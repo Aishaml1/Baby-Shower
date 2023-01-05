@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+
+body{
+background: linear-gradient(rgba(201, 226, 183, 0.232), rgba(170, 174, 167, 0.789)), url("https://i.ibb.co/5KsSH3P/25-D0-E54-A-B920-4-F80-AEB4-88277340-EBA3.png") no-repeat;  
+background-size: 90rem 60rem;
+background-position: center center;
+background-attachment: fixed;
+}
+
+/* Ipad/tablet */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+body {
+background: linear-gradient(rgba(201, 226, 183, 0.232), rgba(170, 174, 167, 0.789)), url("https://i.ibb.co/5KsSH3P/25-D0-E54-A-B920-4-F80-AEB4-88277340-EBA3.png") no-repeat;  
+background-size: 70rem 82rem;
+background-position: center center;
+background-attachment: fixed;
+  }
+}
+
+/* mobile */
+@media screen and (max-device-width: 640px) {
+body{
+background: linear-gradient(rgba(201, 226, 183, 0.232), rgba(170, 174, 167, 0.789)), url("https://i.ibb.co/5KsSH3P/25-D0-E54-A-B920-4-F80-AEB4-88277340-EBA3.png") no-repeat;  
+background-size: 30rem 58rem;
+background-position: center center;
+background-attachment: fixed;
+    }
+}
+
+
+/* .home{
+
+} */
+
+.main-content{
+    padding-top: 7rem;
+}
+
+.title {
+font-weight: 200;
+font-family: 'Clicker Script', cursive;
+transform: rotate(-2deg);
+font-size: 5rem;
+padding-bottom: 5px;
+color: rgba(109, 153, 116, 1);
+}
+
+.subtitle{
+font-weight: 900;
+font-family: 'Playfair Display', serif;
+padding: 20px;
+color: rgba(109, 153, 116, 1);
+font-size: 1.3rem;
+}
+
+.date{
+font-size: 1.4rem;
+font-family: 'Playfair Display', serif;
+}
+
+.day{
+    font-size: 5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.registry{
+padding-bottom: 50%;
+display: block;
+margin-left: 40rem;
+margin-right: auto;
+width: 40%;
+}
+
+/* Ipad/tablet */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+.registry{
+    margin-left:20rem;
+    margin-right: auto;
+    width: 90%;
+  }
+}
+
+/* mobile */
+@media screen and (max-device-width: 640px) {
+.registry{
+    margin-left: 8rem;
+    margin-right: auto;
+    width: 95%;
+    }
+}
+.regtxt{
+margin-left: 1rem;
+margin-right: auto;   
+margin-bottom: 25px;
+font-weight: 200;
+font-family: 'Playfair Display', serif;
+font-size: 30px;
+color: rgba(109, 153, 116, 1);
+}
+
+/* mobile */
+@media screen and (max-device-width: 640px) {
+    .regtxt{  
+width: 80%;
+font-weight: 200;
+font-family: 'Playfair Display', serif;
+font-size: 25px;
+margin-left: 2rem;
+color: rgba(109, 153, 116, 1);
+display: inherit
+        }
+    }
+
+.regsec{
+    display: block;
+}
+
+.rsvp{
+padding-bottom: 20%;
+margin-top: -10rem;
+/* display: block; */
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+}
+
+/* Ipad/tablet */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+.rsvp {
+    /* display: block; */
+    margin-left: 5rem;
+    width: 105%;
+  }
+}
+
+/* mobile */
+@media screen and (max-device-width: 640px) {
+.rsvp{
+    /* display: inline-block; */
+    margin-left: auto;
+    margin-right: 45rem;
+    width: 105%;
+    }
+}
+
+.seeya{
+text-align: center;
+font-weight: 200;
+font-family: 'Playfair Display', serif;
+transform: rotate(-2deg);
+font-size: 30px;
+padding-bottom: 25px;
+margin-left: 1rem;
+color: rgba(109, 153, 116, 1);
+}
+
+/* Ipad/tablet */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    
+.seeya {
+    /* display: block; */
+margin-left: 5rem;
+width: 105%;
+text-align: justify;
+font-weight: 200;
+font-family: 'Playfair Display', serif;
+transform: rotate(-2deg);
+font-size: 25px;
+margin-left: 5rem;
+color: rgba(109, 153, 116, 1);
+display: inherit;
+  }
+}
+
+/* mobile */
+@media screen and (max-device-width: 640px) {
+.seeya{
+text-align: justify;
+font-weight: 200;
+font-family: 'Playfair Display', serif;
+transform: rotate(-2deg);
+font-size: 20px;
+margin-left: 5rem;
+color: rgba(109, 153, 116, 1);
+display: inherit;
+    }
+}
+
+/* mobile */
+@media screen and (max-device-width: 640px) {
+.google{
+    width:400px;
+    height:580px;
+    margin-left: 33px;;
+   }
+}

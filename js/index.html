@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- bootstrap start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!-- bootstrap end  -->
+<!-- babyshower css  -->
+    <link rel="stylesheet" href="/css/babyshower.css" />
+    <link rel="stylesheet" href="/css/countdown.css" />
+    <link rel="stylesheet" href="/css/nav.css" />
+<!-- babyshower css end  -->
+    <title>Document</title>
+<!-- Nav start -->
+
+
+<!-- Nav End -->
+</head>
+<body>
+<!-- Home Start -->
+<section class="home" id="home"> 
+    <div class="main-content">
+        <div class="container has-text-centered">
+        <h1 class="subtitle">Please Join Us For A</h1>
+        <h2 class="title">Baby Shower</h2>
+        <h1 class="subtitle">Honoring Aisha & Jorge</h1>
+        <div
+        class="">
+        <p class="day">
+        <div class="weekend"><b>___________</b>Saturday<b>___________</b></div>
+        <div class="date month">February </div> 
+        <div class="date day">04</div>
+        <div class="date year">2023</div>
+        <div class="start time"><b>___________</b>  5 PM - 11 PM <b>___________</b></div>
+        </p>
+        </div>
+        </h4>
+    </div>
+<!-- Countdown Start -->
+<div class="container">
+    <div id="countdown">
+    <ul>
+        <li><span id="days"></span>days</li>
+        <li><span id="hours"></span>Hours</li>
+        <li><span id="minutes"></span>Minutes</li>
+        <li><span id="seconds"></span>Seconds</li>
+    </ul>
+    </div>
+</div>
+    <script type="text/javascript">
+      (function () {
+const second = 1000,
+  minute = second * 60,
+  hour = minute * 60,
+  day = hour * 24;
+
+//I'm adding this section so I don't have to keep updating this pen every year :-)
+//remove this if you don't need it
+let today = new Date(),
+dd = String(today.getDate()).padStart(2, "0"),
+mm = String(today.getMonth() + 1).padStart(2, "0"),
+yyyy = today.getFullYear(),
+nextYear = yyyy + 1,
+dayMonth = "02/04/",
+birthday = dayMonth + yyyy;
+
+today = mm + "/" + dd + "/" + yyyy;
+if (today > birthday) {
+birthday = dayMonth + nextYear;
+}
+//end
+
+const countDown = new Date(birthday).getTime(),
+x = setInterval(function() {    
+
+  const now = new Date().getTime(),
+        distance = countDown - now;
+
+  document.getElementById("days").innerText = Math.floor(distance / (day)),
+    document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+    document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+    document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+  //do something later when date is reached
+  if (distance < 0) {
+    document.getElementById("headline").innerText = "It's my birthday!";
+    document.getElementById("countdown").style.display = "none";
+    document.getElementById("content").style.display = "block";
+    clearInterval(x);
+  }
+  //seconds
+}, 0)
+}());
+    </script>  
+</div>
+
+<!-- Countdown END -->
+</section>
+<!-- Home End -->
+<!--Registry Begin-->
+    <section class="registry" id="registry">
+    <div class="regsec">
+        <h1 class="regtxt"> Registry </h1>
+        
+        <button type="button" class="btn btn-outline-primary" onclick="location.href='https://www.amazon.com/baby-reg/aisha-lugg-jorge-guerrero-march-2023-brooklyn/X64Y2LGABW96?ref_=cm_sw_r_cp_ud_dp_BC41G34JV2NDJM2F0FN7'" >Amazon</button>
+        <button type="button" class="btn btn-outline-primary" onclick="location.href='https://www.target.com/gift-registry/gift/its-baby-guerrero'">Target</button>
+    </div>
+    </section>
+<!--Registry End-->
+
+<!-- Begin RSVP Content -->
+<section class="rsvp" id="rsvp"> 
+    <div class="rsvphere" >
+    <h1 class="seeya"> We Hope To See You There ! </h1>
+    <iframe class="google" src="https://docs.google.com/forms/d/e/1FAIpQLSdvluFGkwNH6bUtV12dDnbxnjqHNwwpr8sMv5ZYSGLCV1qF5A/viewform?embedded=true" width="640" height="693" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+    
+</section>
+
+<!-- End RSVP Content -->
+
+</body>
+</html>
