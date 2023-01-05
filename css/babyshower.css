@@ -101,6 +101,7 @@ and (max-device-width: 1024px) {
     }
 }
 .regtxt{
+text-align: center;
 margin-right: auto;   
 margin-bottom: 25px;
 font-weight: 200;
