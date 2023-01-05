@@ -138,7 +138,7 @@ width: fit-content;
 and (max-device-width: 1024px) {
 .rsvp {
     /* display: block; */
-    margin-top: -5rem;
+    margin-top: -10rem;
     width: fit-content;
     padding-bottom: 70rem;
     
@@ -173,7 +173,7 @@ and (max-device-width: 1024px) {
     /* display: block; */
 margin: auto;
 width: fit-content;
-text-align: justify;
+text-align: center;
 font-weight: 200;
 font-family: 'Playfair Display', serif;
 font-size: 25px;
