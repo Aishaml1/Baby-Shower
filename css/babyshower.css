@@ -44,6 +44,7 @@ width: fit-content;
 @media screen and (max-device-width: 640px) {
     .main-content{
         margin: auto;
+        padding-top: 10rem;
         }
     }
 
@@ -57,7 +58,7 @@ color: rgba(109, 153, 116, 1);
 }
 
 .subtitle{
-font-weight: 900;
+font-weight: 1000;
 font-family: 'Playfair Display', serif;
 padding: 20px;
 color: rgba(109, 153, 116, 1);
